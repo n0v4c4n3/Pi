@@ -498,6 +498,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 }
 
 /*Para ranking.html*/
+
 .divtablitas {
     width: 475px;
     float: left;
@@ -563,10 +564,12 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     text-shadow: 2px 2px 8px #FFADE9;
 }
 /*Para el .js*/
+
 .tablita tr:hover {
     background-color: #008ECA;
 }
 /*Scroll*/
+
 #arriba {
     border-radius: 50%;
     width: 40px;
@@ -578,6 +581,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     box-shadow: 0 0 20px #000000;
 }
 /*Para multimedia.html*/
+
 .multimedia { /*Para que las dos columnas queden uniformes*/
     background-color: #494949;
     width: 770px;
@@ -634,18 +638,18 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 }
 
 @media all and (max-width: 1200px) {
-       .logo {
+    .logo {
         height: 170px;
         width: 170px;
     }
 
     #letralogo {
-        font-size: 40px;
-        margin: 45% 42%;
+        font-size: 60px;
+        margin: 35% 35%;
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 980px) {
+@media all and (max-width: 980px) {
     #contenido {
         width: 790px;
     }
@@ -656,8 +660,8 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     }
 
     #letralogo {
-        font-size: 40px;
-        margin: 45% 42%;
+        font-size: 50px;
+        margin: 35% 35%;
     }
 
     .menu {
@@ -678,18 +682,110 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     #costado {
         display: none;
     }
+
     /*Para rankings.html*/
+
     .divtablitas {
         width: 765px;
     }
 
     .tablita {
-        font-family: 'Trebuchet MS';
-        font-size: 12px;
         width: 765px;
-        color: #FFFFFF;
-        border-width: 2px;
-        border-color: #FFFFFF;
-        border-collapse: collapse;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 840px) {
+    #contenido {
+        width: 650px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    #letralogo {
+        font-size: 50px;
+        margin: 35% 35%;
+    }
+
+    .menu {
+        width: 650px;
+    }
+
+        .menu ul li a {
+            font-size: 12px;
+        }
+
+    #etiqueta {
+        top: 20%;
+        right: 5%;
+        font-size: 40px;
+    }
+
+    #costado {
+        display: none;
+    }
+
+    .targeta { /*Para que las dos columnas queden uniformes*/
+        width: auto;
+        margin: 5px 20px 5px 10px;
+    }
+
+    .informacion {
+        width: auto;
+    }
+
+    /*Para rankings.html*/
+
+    .divtablitas {
+        width: 620px;
+    }
+
+    .tablita {
+        width: 620px;
+    }
+
+    /*Para multimedia.html*/
+
+    .multimedia { /*Para que las dos columnas queden uniformes*/
+        width: 630px;
+    }
+
+    .titulolargo {
+        width: 620px;
+    }
+
+    #video {
+        margin: 18px auto;
+        box-shadow: 0 0 20px #000000;
+    }
+
+    .infovideo {
+        width: auto;
+    }
+
+    .informacionmultimedia {
+        width: auto;
+        height: auto;
+    }
+
+    /*Para registro.html*/
+
+    .divregistro {
+        width: 620px;
+        margin: 5px 20px 5px 10px;
+    }
+
+    .informacion .registrarme {
+        width: 620px;
+    }
+
+    .titulodelboton {
+        width: 620px;
+    }
+
+    .informacionregistro {
+        width: 620px;
     }
 }
