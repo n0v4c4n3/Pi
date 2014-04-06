@@ -55,6 +55,16 @@ h3 {
     outline: 2px dashed white;
 }
 
+::selection {
+    background: #FFADE9;
+    color: #333333;
+}
+
+::-moz-selection {
+    background: #FFADE9;
+    color: #333333;
+}
+
 #iracontenido {
     width: 95px;
     height: auto;
@@ -118,6 +128,7 @@ h3 {
     font-size: 90px;
     color: #FFFFFF;
     transform: rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
     margin: 25% 32%;
     text-align: center;
 }
@@ -198,7 +209,7 @@ h3 {
     line-height: 1.1em;
 }
 
-    .noticia label {
+    .noticia span {
         float: left;
         color: #FFADE9;
         font-style: normal;
@@ -607,4 +618,20 @@ h3 {
     font-size: 15px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 1.15em;
+}
+
+.informacionmultimedia {
+    width: 760px;
+    height: 185px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
 }
