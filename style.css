@@ -166,7 +166,6 @@ h3 {
     min-height: 855px;
     float: left;
     padding: 5px;
-    margin-right: 5px; /*Para que parezca que tiene el mismo margen todo */
     background-color: #494949;
     color: #FFFFFF;
     font-size: inherit;
@@ -177,14 +176,13 @@ h3 {
 }
 
 #noticias {
-    margin-top: 5px;
-    width: 350px;
+    width: 370px;
     float: left;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 5px 10px 5px 10px;
 }
 
 .noticia {
+    width: 100%;
     height: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -213,14 +211,17 @@ h3 {
         line-height: 0.1em;
     }
 
+#destacados {
+    width: 370px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
 
 .destacado {
-    width: 400px; /*hacer cuentas*/
+    width: 100%;
     height: 320px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
     float: left;
     background-color: #494949;
     padding: 5px;
@@ -238,10 +239,17 @@ h3 {
         line-height: 0.1em;
     }
 
+    .destacado p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
 .informacion {
     width: 760px;
-    height: 105px;
-    margin: 5px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
     float: left;
     background-color: #494949;
     padding: 5px;
@@ -252,10 +260,10 @@ h3 {
 }
 
 #titulonoticias {
-    width: 340px;
+    width: 100%;
     height: 35px;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-bottom: 5px;
     float: left;
     background-color: #FFADE9;
     padding: 5px;
@@ -265,12 +273,11 @@ h3 {
     line-height: 1.15em;
 }
 
-#titulodestacado {
-    width: 400px;
+#titulodestacados {
+    width: 100%;
     height: 35px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     float: left;
     background-color: #FFADE9;
     padding: 5px;
@@ -395,4 +402,9 @@ h3 {
     color: #222222;
     font-family: 'Pacifico', cursive;
     font-size: 18px;
+}
+/*para registro.html*/
+
+#divregistro {
+    width;
 }
