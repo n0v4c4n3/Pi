@@ -107,7 +107,7 @@ h3 {
 
 #etiqueta {
     font-family: 'Pacifico', cursive;
-    right: 15%;
+    right: 14%;
     position: absolute;
     font-size: 50px;
     color: #FFFFFF;
@@ -160,6 +160,10 @@ h3 {
             .menu ul li .activo {
                 background-color: #fe6ad6;
             }
+
+        .menu ul .sesion {
+            margin-left: 28%;
+        }
 
 #costado {
     width: 200px;
@@ -390,6 +394,7 @@ h3 {
     font-family: 'Pacifico', cursive;
     font-size: 18px;
 }
+
 /*para registro.html*/
 
 .divregistro {
@@ -477,8 +482,74 @@ h3 {
 .informacionregistro {
     width: 760px;
     height: 185px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
+}
+
+/*para ranking.html*/
+.divtablitas {
+    width: 475px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.tablitas {
+    width: 100%;
+    height: 540px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+.tablita {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    width: 470px;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+    .tablita th {
+        background-color: #FFADE9;
+        border-width: 2px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    }
+
+    .tablita tr {
+        background-color: #494949;
+    }
+
+    .tablita td {
+        border-width: 2px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    }
+
+.informacionrankings {
+    width: 970px;
+    height: 180px;
+    margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
