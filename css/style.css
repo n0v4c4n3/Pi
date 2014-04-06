@@ -637,6 +637,49 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     text-shadow: 2px 2px 8px #FFADE9;
 }
 
+/*Para critica.html*/
+
+.indice {
+    background-color: #494949;
+    width: 770px;
+    height: auto;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+#listado {
+    margin: 18px auto;
+}
+
+.texto {
+    width: 760px;
+    height: auto;
+    margin: 5px 10px 10px 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+.informacioncritica {
+    width: 760px;
+    height: 185px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
+}
+
 @media all and (max-width: 1200px) {
     .logo {
         height: 170px;
@@ -727,7 +770,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
         display: none;
     }
 
-    .targeta { /*Para que las dos columnas queden uniformes*/
+    .targeta { 
         width: auto;
         margin: 5px 20px 5px 10px;
     }
@@ -748,7 +791,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     /*Para multimedia.html*/
 
-    .multimedia { /*Para que las dos columnas queden uniformes*/
+    .multimedia { 
         width: 630px;
     }
 
@@ -787,5 +830,24 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     .informacionregistro {
         width: 620px;
+    }
+
+    /*Para critica.html*/
+
+    .indice { 
+        width: 630px;
+    }
+
+    .titulolargo {
+        width: 620px;
+    }
+
+    .texto {
+        width: auto;
+    }
+
+    .informacioncritica {
+        width: auto;
+        height: auto;
     }
 }
