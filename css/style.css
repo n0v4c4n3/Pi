@@ -69,6 +69,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     height: auto;
     background-color: #FFADE9;
     border-radius: 25px;
+    margin-left: 18%;
 }
 
     #iracontenido a {
@@ -259,7 +260,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 .informacion {
     width: 760px;
     height: 100px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
@@ -484,7 +485,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     width: 760px;
     height: 185px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
@@ -625,7 +626,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 .informacionmultimedia {
     width: 760px;
     height: 185px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
@@ -643,7 +644,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 .indice {
     background-color: #494949;
     width: 590px;
-    height: auto;
+    height: 240px;
     float: left;
     margin: 5px 5px 0px 10px;
 }
@@ -651,21 +652,21 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 #imagencritica {
     background-color: #494949;
     width: 170px;
-    height: auto;
+    height: 240px;
     float: left;
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 0px 5px;
 }
 
-.afichescritica {
-    margin: 5px;
+#afichescritica {
+    margin: 8px auto;
     height: auto;
-    float: right;
-    width: 160px;
+    width: 150px;
+    display: block;
 }
 
 #costadocriticas {
     width: 200px;
-    height: 1760px;
+    height: 1755px;
     float: left;
     padding: 5px;
     background-color: #494949;
@@ -675,7 +676,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     font-style: normal;
     text-decoration: inherit;
     line-height: 1.15em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .texto {
@@ -694,9 +695,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 .informacioncritica {
     width: auto;
     height: 185px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px 10px 10px 10px;
     float: left;
     background-color: #494949;
     padding: 5px;
@@ -711,6 +710,8 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     font-size: 15px;
     color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
     #listado a {
@@ -777,6 +778,12 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     .tablita {
         width: 765px;
+    }
+    /*Para criticas.html*/
+
+    .informacioncritica {
+        width: auto;
+        height: auto;
     }
 }
 
@@ -883,10 +890,5 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     .texto {
         width: auto;
-    }
-
-    .informacioncritica {
-        width: auto;
-        height: auto;
     }
 }
