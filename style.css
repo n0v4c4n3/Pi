@@ -51,6 +51,32 @@ h3 {
     padding: 0;
 }
 
+:focus {
+    outline: 2px dashed white;
+}
+
+#iracontenido {
+    width: 95px;
+    height: auto;
+    background-color: #FFADE9;
+    border-radius: 25px;
+}
+
+    #iracontenido a {
+        position: absolute;
+        margin-top: -99999px;
+        font-style: normal;
+    }
+
+        #iracontenido a:focus {
+            position: relative;
+            margin-top: 0px;
+        }
+
+        #iracontenido a:link {
+            text-decoration: none;
+        }
+
 .banner {
     background-color: #008ECA;
     background-image: url("images/headingbg.jpg");
@@ -58,7 +84,6 @@ h3 {
     padding-left: 200px;
     padding-top: 0;
     position: relative;
-    z-index: 4;
 }
 
 .banner_borde {
@@ -77,7 +102,7 @@ h3 {
     left: -5%;
     position: absolute;
     top: -50%;
-    z-index: 5; /*Por las dudas*/
+    z-index: 1; /*Para dejarlo por arriva*/
 }
 
 #etiqueta {
@@ -130,7 +155,6 @@ h3 {
                 padding: 3px 12px 3px 35px;
                 position: relative;
                 text-decoration: none;
-                z-index: 2;
             }
 
             .menu ul li .activo {
