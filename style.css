@@ -79,7 +79,6 @@ h3 {
 
 .banner {
     background-color: #008ECA;
-    background-image: url("images/headingbg.jpg");
     height: 95px;
     padding-left: 200px;
     padding-top: 0;
@@ -95,7 +94,7 @@ h3 {
 
 .logo {
     border-radius: 50%; /*Circulos!!!*/
-    box-shadow: 0 0 35px #008ECA;
+    box-shadow: 0 0 35px #006894;
     background-color: #008ECA;
     height: 250px;
     width: 250px;
@@ -119,7 +118,7 @@ h3 {
     font-size: 90px;
     color: #FFFFFF;
     transform: rotate(-45deg);
-    margin: 70px;
+    margin: 25% 32%;
     text-align: center;
 }
 
@@ -436,7 +435,7 @@ h3 {
 
     .registro .inputsmasfelizes {
         border-radius: 8px;
-        width: 300px;
+        width: 340px;
         height: 30px;
         font-size: 150%;
         vertical-align: middle;
@@ -445,6 +444,7 @@ h3 {
 
     .registro #bio {
         border-radius: 8px;
+        width: 340px;
     }
 
 .informacion .registrarme {
