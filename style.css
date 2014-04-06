@@ -561,3 +561,18 @@ h3 {
     line-height: 1.15em;
     text-shadow: 2px 2px 8px #FFADE9;
 }
+/*Para el .js*/
+.tablita tr:hover {
+    background-color: #008ECA;
+}
+/*scroll*/
+#arriba {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    background-image: url('images/arriba.png');
+    box-shadow: 0 0 20px #000000;
+}
