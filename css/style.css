@@ -1,0 +1,610 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url("../images/fondito.png") repeat scroll 0 0 #222222;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#contenido {
+    overflow: auto;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #333333;
+    box-shadow: 0 0 20px #000000;
+}
+
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'MS Sans Serif',Geneva,sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 6px;
+    padding: 0;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'MS Sans Serif',Geneva,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 6px;
+    padding: 0;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-family: 'MS Sans Serif',Geneva,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 6px;
+    padding: 0;
+}
+
+:focus {
+    outline: 2px dashed white;
+}
+
+#iracontenido {
+    width: 95px;
+    height: auto;
+    background-color: #FFADE9;
+    border-radius: 25px;
+}
+
+    #iracontenido a {
+        position: absolute;
+        margin-top: -99999px;
+        font-style: normal;
+    }
+
+        #iracontenido a:focus {
+            position: relative;
+            margin-top: 0px;
+        }
+
+        #iracontenido a:link {
+            text-decoration: none;
+        }
+
+.banner {
+    background-color: #008ECA;
+    height: 95px;
+    padding-left: 200px;
+    padding-top: 0;
+    position: relative;
+}
+
+.banner_borde {
+    background-color: #FFADE9;
+    height: 26px;
+    width: 100%;
+    box-shadow: 0 0 35px #FFADE9;
+}
+
+.logo {
+    border-radius: 50%; /*Circulos!!!*/
+    box-shadow: 0 0 35px #006894;
+    background-color: #008ECA;
+    height: 250px;
+    width: 250px;
+    left: -5%;
+    position: absolute;
+    top: -50%;
+    z-index: 1; /*Para dejarlo por arriva*/
+}
+
+#etiqueta {
+    font-family: 'Pacifico', cursive;
+    right: 14%;
+    position: absolute;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+#letralogo {
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    font-size: 90px;
+    color: #FFFFFF;
+    transform: rotate(-45deg);
+    margin: 25% 32%;
+    text-align: center;
+}
+
+.menu {
+    background-color: #FFADE9;
+    height: 25px;
+    padding-left: 200px;
+    position: relative;
+}
+
+    .menu ul {
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .menu ul li {
+            float: left;
+            height: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+            .menu ul li a {
+                background-color: #FFADE9;
+                background-image: url("../images/carpetita.png");
+                background-position: 12px center;
+                background-repeat: no-repeat;
+                color: #FFFFFF;
+                display: block;
+                font-size: 14px;
+                height: 19px;
+                padding: 3px 12px 3px 35px;
+                position: relative;
+                text-decoration: none;
+            }
+
+            .menu ul li .activo {
+                background-color: #fe6ad6;
+            }
+
+        .menu ul .sesion {
+            margin-left: 28%;
+        }
+
+#costado {
+    width: 200px;
+    min-height: 855px;
+    float: left;
+    padding: 5px;
+    background-color: #494949;
+    color: #FFFFFF;
+    font-size: inherit;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: inherit;
+    line-height: 1.15em;
+}
+
+.targeta { /*Para que las dos columnas queden uniformes*/
+    width: 370px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.noticia {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.1em;
+}
+
+    .noticia label {
+        float: left;
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+        line-height: 0.1em;
+    }
+
+    .noticia a {
+        float: right;
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+        line-height: 0.1em;
+    }
+
+.destacado {
+    width: 100%;
+    height: 320px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+    .destacado a {
+        float: right;
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+        line-height: 0.1em;
+    }
+
+    .destacado p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+.informacion {
+    width: 760px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
+}
+
+.tituloscontenido {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #FFADE9;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+.afiches {
+    margin: 5px;
+    height: auto;
+    width: 160px;
+    float: left;
+}
+
+.ranking {
+    width: 180px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+    background-color: #008ECA;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+    .ranking h2 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .ranking p {
+        text-align: center;
+        line-height: 1px;
+        font-size: 10px;
+    }
+
+    .ranking a {
+        color: #FFFFFF;
+        font-family: 'MS Sans Serif',Geneva,sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 6px;
+        padding: 0;
+    }
+
+.ranking2 {
+    width: 180px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+    background-color: #006894;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+    .ranking2 h2 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .ranking2 p {
+        text-align: center;
+        line-height: 1px;
+        font-size: 10px;
+    }
+
+.num {
+    float: left;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.pie {
+    background-color: #333333;
+    box-shadow: 0 0 20px #000000;
+    width: 100%;
+    position: relative;
+    margin-top: 50px; /* separacion */
+    padding-top: 5px;
+    height: 180px;
+    clear: both;
+}
+
+.centrateporfavor {
+    margin: auto;
+    width: 420px;
+    text-align: center;
+}
+
+.contenidopie {
+    width: 120px;
+    height: 120px;
+    background-color: #494949;
+    background: url("../images/fondito.png") repeat scroll 0 0 #222222; /*Igual que el fondo para dar "profundidad"*/
+    box-shadow: inset 0 0 20px #000000;
+    margin: 10px;
+    float: left;
+    border-radius: 50%; /*Circulos!!!*/
+}
+
+.titulocontenidopieesfera {
+    color: #FFFFFF;
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+    display: block;
+    line-height: 110px;
+    text-align: center;
+}
+
+#copyright {
+    color: #222222;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+}
+
+/*Para registro.html*/
+
+.divregistro {
+    width: 370px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.registro {
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+    .registro a {
+        float: right;
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+        line-height: 0.1em;
+    }
+
+    .registro p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .registro fieldset {
+        border: none;
+    }
+
+    .registro .inputsmasfelizes {
+        border-radius: 8px;
+        width: 340px;
+        height: 30px;
+        font-size: 150%;
+        vertical-align: middle;
+        margin: 10px 0px;
+    }
+
+    .registro #bio {
+        border-radius: 8px;
+        width: 340px;
+    }
+
+.informacion .registrarme {
+    box-shadow: 0px 0px 22px 0px #ffade9;
+    background-color: #ffade9;
+    border-radius: 50px;
+    border: 1px solid #ffade9;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+    width: 200px;
+    text-align: center;
+    margin: 15px auto;
+    display: block;
+}
+
+
+.titulodelboton {
+    width: 760px;
+    height: 35px;
+    margin: 0px 10px 10px 10px;
+    float: left;
+    background-color: #FFADE9;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+.informacionregistro {
+    width: 760px;
+    height: 185px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
+}
+
+/*Para ranking.html*/
+.divtablitas {
+    width: 475px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.tablitas {
+    width: 100%;
+    height: 540px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+.tablita {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    width: 470px;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+    .tablita th {
+        background-color: #FFADE9;
+        border-width: 2px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    }
+
+    .tablita tr {
+        background-color: #494949;
+    }
+
+    .tablita td {
+        border-width: 2px;
+        padding: 2px;
+        border-style: solid;
+        border-color: #FFFFFF;
+    }
+
+.informacionrankings {
+    width: 970px;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+    text-shadow: 2px 2px 8px #FFADE9;
+}
+/*Para el .js*/
+.tablita tr:hover {
+    background-color: #008ECA;
+}
+/*Scroll*/
+#arriba {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    background-image: url('../images/arriba.png');
+    box-shadow: 0 0 20px #000000;
+}
+/*Para multimedia.html*/
+.multimedia { /*Para que las dos columnas queden uniformes*/
+    background-color: #494949;
+    width: 770px;
+    height: 295px;
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+.titulolargo {
+    width: 760px;
+    height: 35px;
+    margin: 10px 10px 5px 10px;
+    float: left;
+    background-color: #FFADE9;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
+
+#video {
+    margin: 18px auto;
+}
+
+.infovideo {
+    width: 760px;
+    height: auto;
+    margin: 5px 10px 10px 10px;
+    float: left;
+    background-color: #494949;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    line-height: 1.15em;
+}
