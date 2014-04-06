@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pi! | Peliculas independientes</title>
+    <link href="style.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrap">
+
+        <div class="banner">
+            <label id="etiqueta">Peliculas independientes</label>
+            <div class="logo"><label id="letralogo">Pi!</label></div>
+            <div id="iracontenido"><a href="#contenido" tabindex="1" title="Lleva al contenido de la pagina">Ir al contenido</a></div>
+        </div>
+        <div class="banner_borde">
+            <div class="menu">
+                <ul>
+                    <li><a href="#" class="activo">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Multimedia</a></li>
+                    <li><a href="#">Criticas</a></li>
+                    <li><a href="#">Rankings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="contenido" lang="EN">
+            <div id="costado">
+                <div class="ranking"><h1>Ranking</h1></div>
+                <div class="ranking2"><label class="num">#1</label><h2>Life Is Beautiful</h2><p>(Italy, 1997)</p></div>
+                <div class="ranking"><label class="num">#2</label><h2>Grave of the Fireflies</h2><p>(Japan, 1988)</p></div>
+                <div class="ranking2"><label class="num">#3</label><h2>Europa Europa</h2><p>(Holland, 1990)</p></div>
+                <div class="ranking"><label class="num">#4</label><h2>The Thief</h2><p>(Russia, 1997)</p></div>
+                <div class="ranking2"><label class="num">#5</label><h2>Landscape in the Mist</h2><p>(Greece, 1988)</p></div>
+                <div class="ranking"><label class="num">#6</label><h2>Nobody Knows</h2><p>(Japan, 2004)</p></div>
+                <div class="ranking2"><label class="num">#7</label><h2>Pieta</h2><p>(South Korea, 2012)</p></div>
+                <div class="ranking"><label class="num">#8</label><h2>Fish Tank</h2><p>(United Kingdom, 2009)</p></div>
+                <div class="ranking2"><label class="num">#9</label><h2>Lilja 4-ever</h2><p>(Swedish-Danish, 2002)</p></div>
+                <div class="ranking"><label class="num">#10</label><h2>All About Lily Chou</h2><p>(Japan, 2001)</p></div>
+                <div class="ranking2"><label class="num">#11</label><h2>Shiza</h2><p>(Russia, 2004)</p></div>
+                <div class="ranking"><label class="num">#12</label><h2>Slumdog Millionaire</h2><p>(United Kingdom, 2008)</p></div>
+                <div class="ranking2"><label class="num">#13</label><h2>Let The Right One In</h2><p>(Sweden, 2004)</p></div>
+                <div class="ranking"><label class="num">#14</label><h2>About the Pink Sky</h2><p>(Japan, 2011)</p></div>
+                <div class="ranking2"><label class="num">#15</label><h2>Pan's Labyrinth</h2><p>(Mexico, 2006)</p></div>
+                <div class="ranking"><a>Mostrar mas...</a></div>
+            </div>
+            <form action="#url" method="get">
+                <div class="divregistro">
+                    <div class="tituloscontenido">
+                        <h1>
+                            Paso 1 - Sobre tu cuenta
+                        </h1>
+                    </div>
+                    <div class="registro">
+                        <fieldset>
+                            <legend>Para crear cuenta</legend>
+                            <input id="usuario" type="text" name="usuario" placeholder="Usuario" alt="Ingresa tu nombre de usuario." class="inputsmasfelizes">
+                            <p>Otros te reconoceran por este nombre. Asegúrate de estar feliz con el!</p>
+                            <input id="email" type="text" name="email" placeholder="Email" alt="Ingresa tu email." class="inputsmasfelizes">
+                            <p>Se utilizará para las notificaciones, y en caso de que olvides tu contraseña. No spam, nunca.</p>
+                            <input id="contraseña" type="password" name="contraseña" placeholder="Contraseña" alt="Ingresa la contraseña." class="inputsmasfelizes">
+                            <p>Por lo menos 6 caracteres de longitud. Elije algo largo, pero que sea algo que recuerdes, como una línea de tu canción favorita.</p>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="divregistro">
+                    <div class="tituloscontenido">
+                        <h1>
+                            Paso 2 - Sobre ti
+                        </h1>
+                    </div>
+                    <div class="registro">
+                        <fieldset>
+                            <legend>Para ser mas original!</legend>
+                            <p>Generos favoritos:</p>
+                            <input type="checkbox" id="drama"> <label for="drama">Drama</label>
+                            <input type="checkbox" id="accion"> <label for="accion">Accion</label>
+                            <input type="checkbox" id="terror"> <label for="terror">Terror</label>
+                            <input type="checkbox" id="comedia"> <label for="comedia">Comedio</label>
+                            <p>Servicios que usas:</p>
+                            <input type="checkbox" id="twitter"> <label for="twitter">Twitter</label>
+                            <input type="checkbox" id="tumblr"> <label for="tumblr">Tumblr</label>
+                            <input type="checkbox" id="soundcloud"> <label for="soundcloud">Soundcloud</label>
+                            <input type="checkbox" id="pinterest"> <label for="pinterest">Pinterest</label>
+                            <p>Tu sexo:</p>
+                            <input type="radio" name="sexo" value="hombre">Hombre
+                            <input type="radio" name="sexo" value="mujer">Mujer
+                            <input type="radio" name="sexo" value="extraterrestre">Extraterrestre u otro
+                            <p>Biografia:</p>
+                            <textarea id="bio" rows="6" cols="38" placeholder="Me encanta esta pagina"></textarea>
+                        </fieldset>
+                    </div>
+                </div>
+            </form>
+            <div class="titulodelboton">
+                <h1>
+                    Paso 3 - Hacer click en este boton!
+                </h1>
+            </div>
+            <div class="informacion">
+                <button class="registrarme" name="registrarme">Yo soy el boton</button>
+            </div>
+            <div class="informacionregistro">
+                <h1>Por que registrarme?</h1>
+                <p>
+                    Si te registras recibirás información y podrás acceder a contenido exclusivo para los usuarios de Pi!. Además de opiniones, podrás compartir fotos, videos, mensajes, crear grupos y comunidades. Podrás participar en ellas para hablar de lo que sea.
+                </p>
+                <p>
+                    Si quieres todo eso y mas, llena el formulario con tus datos y dale click a ese boton de arriba!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="pie">
+        <div class="centrateporfavor">
+            <div id="copyright">
+                <label>© Gabriel Martinez - 2014</label>
+            </div>
+            <div class="contenidopie">
+                <a class="titulocontenidopieesfera">Info</a>
+            </div>
+            <div class="contenidopie">
+                <a class="titulocontenidopieesfera">Sitemap</a>
+            </div>
+            <div class="contenidopie">
+                <a class="titulocontenidopieesfera">Contacto</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
