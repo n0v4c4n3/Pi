@@ -580,6 +580,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     background-image: url('../images/arriba.png');
     box-shadow: 0 0 20px #000000;
 }
+
 /*Para multimedia.html*/
 
 .multimedia { /*Para que las dos columnas queden uniformes*/
@@ -641,20 +642,46 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
 .indice {
     background-color: #494949;
-    width: 770px;
+    width: 590px;
     height: auto;
     float: left;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 5px 0px 10px;
 }
 
-#listado {
-    margin: 18px auto;
+#imagencritica {
+    background-color: #494949;
+    width: 170px;
+    height: auto;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.afichescritica {
+    margin: 5px;
+    height: auto;
+    float: right;
+    width: 160px;
+}
+
+#costadocriticas {
+    width: 200px;
+    height: 1760px;
+    float: left;
+    padding: 5px;
+    background-color: #494949;
+    color: #FFFFFF;
+    font-size: inherit;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: inherit;
+    line-height: 1.15em;
+    margin-bottom: 10px;
 }
 
 .texto {
     width: 760px;
     height: auto;
-    margin: 5px 10px 10px 10px;
+    margin: 5px 10px 0px 10px;
     float: left;
     background-color: #494949;
     padding: 5px;
@@ -665,7 +692,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 }
 
 .informacioncritica {
-    width: 760px;
+    width: auto;
     height: 185px;
     margin-bottom: 5px;
     margin-right: 10px;
@@ -679,6 +706,18 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
     line-height: 1.15em;
     text-shadow: 2px 2px 8px #FFADE9;
 }
+
+#listado {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+    #listado a {
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+    }
 
 @media all and (max-width: 1200px) {
     .logo {
@@ -726,6 +765,10 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
         display: none;
     }
 
+    #costadocriticas {
+        display: none;
+    }
+
     /*Para rankings.html*/
 
     .divtablitas {
@@ -766,11 +809,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
         font-size: 40px;
     }
 
-    #costado {
-        display: none;
-    }
-
-    .targeta { 
+    .targeta {
         width: auto;
         margin: 5px 20px 5px 10px;
     }
@@ -791,7 +830,7 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     /*Para multimedia.html*/
 
-    .multimedia { 
+    .multimedia {
         width: 630px;
     }
 
@@ -834,8 +873,8 @@ a:focus, button:focus, input:focus, textarea:focus, video:focus {
 
     /*Para critica.html*/
 
-    .indice { 
-        width: 630px;
+    .indice {
+        width: 450px;
     }
 
     .titulolargo {
