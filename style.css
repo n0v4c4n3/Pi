@@ -41,6 +41,7 @@ h2 {
     margin: 6px;
     padding: 0;
 }
+
 h3 {
     color: #FFFFFF;
     font-family: 'MS Sans Serif',Geneva,sans-serif;
@@ -119,7 +120,7 @@ h3 {
 
             .menu ul li a {
                 background-color: #FFADE9;
-                background-image: url("images/folder.png");
+                background-image: url("images/carpetita.png");
                 background-position: 12px center;
                 background-repeat: no-repeat;
                 color: #FFFFFF;
@@ -169,15 +170,25 @@ h3 {
     color: #FFFFFF;
     font-size: 15px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    line-height: 1.15em;
+    line-height: 1.1em;
 }
+
+    .noticia label {
+        float: left;
+        color: #FFADE9;
+        font-style: normal;
+        font-style: oblique;
+        line-height: 0.1em;
+    }
 
     .noticia a {
         float: right;
         color: #FFADE9;
         font-style: normal;
         font-style: oblique;
+        line-height: 0.1em;
     }
+
 
 .destacado {
     width: 400px; /*hacer cuentas*/
@@ -278,6 +289,14 @@ h3 {
         font-size: 10px;
     }
 
+    .ranking a {
+        color: #FFFFFF;
+        font-family: 'MS Sans Serif',Geneva,sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 6px;
+        padding: 0;
+    }
 
 .ranking2 {
     width: 180px;
@@ -328,7 +347,7 @@ h3 {
     text-align: center;
 }
 
-#contenidopie1 {
+.contenidopie {
     width: 120px;
     height: 120px;
     background-color: #494949;
@@ -337,36 +356,14 @@ h3 {
     margin: 10px;
     float: left;
     border-radius: 50%; /*Circulos!!!*/
-}
-
-#contenidopie2 {
-    width: 120px;
-    height: 120px;
-    background-color: #494949;
-    background: url("images/fondito.png") repeat scroll 0 0 #222222; /*Igual que el fondo para dar "profundidad"*/
-    box-shadow: inset 0 0 20px #000000;
-    margin: 10px;
-    float: left;
-    border-radius: 50%; /*Circulos!!!*/
-}
-
-#contenidopie3 {
-    width: 120px;
-    height: 120px;
-    background-color: #494949;
-    background: url("images/fondito.png") repeat scroll 0 0 #222222;
-    box-shadow: inset 0 0 20px #000000;
-    margin: 10px;
-    float: left;
-    border-radius: 50%;
 }
 
 .titulocontenidopieesfera {
     color: #FFFFFF;
     font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    font-weight: 300;
-    margin-top: 32%;
+    font-size: 26px;
+    display: block;
+    line-height: 110px;
     text-align: center;
 }
 
