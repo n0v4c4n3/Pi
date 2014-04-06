@@ -23,7 +23,6 @@ body {
     box-shadow: 0 0 20px #000000;
 }
 
-
 h1 {
     color: #FFFFFF;
     font-family: 'MS Sans Serif',Geneva,sans-serif;
@@ -51,17 +50,17 @@ h3 {
     padding: 0;
 }
 
-:focus {
+a:focus, button:focus, input:focus, textarea:focus, video:focus {
     outline: 2px dashed white;
 }
 
 ::selection {
-    background: #FFADE9;
+    background-color: #FFADE9;
     color: #333333;
 }
 
 ::-moz-selection {
-    background: #FFADE9;
+    background-color: #FFADE9;
     color: #333333;
 }
 
@@ -89,10 +88,11 @@ h3 {
 
 .banner {
     background-color: #008ECA;
+    width: 100%;
     height: 95px;
-    padding-left: 200px;
     padding-top: 0;
     position: relative;
+    margin: 0 auto;
 }
 
 .banner_borde {
@@ -128,16 +128,18 @@ h3 {
     font-size: 90px;
     color: #FFFFFF;
     transform: rotate(-45deg);
-    -webkit-transform:rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     margin: 25% 32%;
     text-align: center;
 }
 
 .menu {
     background-color: #FFADE9;
+    width: 1000px;
     height: 25px;
-    padding-left: 200px;
+    padding-left: 20px;
     position: relative;
+    margin: 0 auto;
 }
 
     .menu ul {
@@ -172,7 +174,7 @@ h3 {
             }
 
         .menu ul .sesion {
-            margin-left: 28%;
+            margin-left: 32%;
         }
 
 #costado {
@@ -214,7 +216,6 @@ h3 {
         color: #FFADE9;
         font-style: normal;
         font-style: oblique;
-        line-height: 0.1em;
     }
 
     .noticia a {
@@ -222,7 +223,11 @@ h3 {
         color: #FFADE9;
         font-style: normal;
         font-style: oblique;
-        line-height: 0.1em;
+    }
+
+    .noticia p {
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
 .destacado {
@@ -244,7 +249,6 @@ h3 {
         color: #FFADE9;
         font-style: normal;
         font-style: oblique;
-        line-height: 0.1em;
     }
 
     .destacado p {
@@ -421,14 +425,6 @@ h3 {
     line-height: 1.15em;
 }
 
-    .registro a {
-        float: right;
-        color: #FFADE9;
-        font-style: normal;
-        font-style: oblique;
-        line-height: 0.1em;
-    }
-
     .registro p {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -552,7 +548,7 @@ h3 {
     }
 
 .informacionrankings {
-    width: 970px;
+    width: auto;
     height: 180px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -605,6 +601,7 @@ h3 {
 
 #video {
     margin: 18px auto;
+    box-shadow: 0 0 20px #000000;
 }
 
 .infovideo {
@@ -634,4 +631,65 @@ h3 {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     line-height: 1.15em;
     text-shadow: 2px 2px 8px #FFADE9;
+}
+
+@media all and (max-width: 1200px) {
+       .logo {
+        height: 170px;
+        width: 170px;
+    }
+
+    #letralogo {
+        font-size: 40px;
+        margin: 45% 42%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 980px) {
+    #contenido {
+        width: 790px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    #letralogo {
+        font-size: 40px;
+        margin: 45% 42%;
+    }
+
+    .menu {
+        width: 800px;
+    }
+
+        .menu ul .sesion {
+            margin-left: initial;
+        }
+
+
+    #etiqueta {
+        top: 20%;
+        right: 5%;
+        font-size: 40px;
+    }
+
+    #costado {
+        display: none;
+    }
+    /*Para rankings.html*/
+    .divtablitas {
+        width: 765px;
+    }
+
+    .tablita {
+        font-family: 'Trebuchet MS';
+        font-size: 12px;
+        width: 765px;
+        color: #FFFFFF;
+        border-width: 2px;
+        border-color: #FFFFFF;
+        border-collapse: collapse;
+    }
 }
